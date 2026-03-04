@@ -36,8 +36,10 @@ class Item{
 class TypingSession{
         - wordQueue: vector~Word~
         - currIndex: int
+        - wpm: float
         + start()
         + nextWord() Word
         + submitUserInput(input: string)
+        + getWpm() float
 }
 ```
